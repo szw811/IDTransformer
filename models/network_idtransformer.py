@@ -302,7 +302,7 @@ class IDTransformer(nn.Module):
                  dual_pixel_task=False  ## True for dual-pixel defocus deblurring only. Also set inp_channels=6
                  ):
 
-        super(Restormer, self).__init__()
+        super(IDTransformer, self).__init__()
 
         self.img_range = img_range
         if inp_channels == 3:
